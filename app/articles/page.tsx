@@ -9,7 +9,7 @@ import { Eye } from "lucide-react";
 import { siteData } from "@/config/site";
 import { Metadata } from "next";
 
-export const metadata: Metadata = siteData("随手记 | cater");
+export const metadata: Metadata = siteData("文章 | cater");
 
 const redis = Redis.fromEnv();
 
@@ -39,7 +39,7 @@ export default async function ProjectsPage() {
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-            随手记
+            文章
           </h2>
           <p className="mt-4 text-zinc-400">
             我们都在同一片星空下，寻找各自的答案

@@ -27,16 +27,16 @@ export const Navigation: React.FC = () => {
         }`}>
         <div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
           <div className="flex justify-between gap-8">
-            {/* <Link
+            <Link
               href="/projects"
               className="duration-200 text-zinc-400 hover:text-zinc-100">
-              项目集
+              项目
             </Link>
             <Link
               href="/articles"
               className="duration-200 text-zinc-400 hover:text-zinc-100">
-              随手记
-            </Link> */}
+              文章
+            </Link>
             <Link
               href="/comment"
               className="duration-200 text-zinc-400 hover:text-zinc-100">
@@ -45,7 +45,7 @@ export const Navigation: React.FC = () => {
             <Link
               href="/about"
               className="duration-200 text-zinc-400 hover:text-zinc-100">
-              关于我
+              关于
             </Link>
           </div>
 

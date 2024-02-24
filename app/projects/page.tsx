@@ -9,7 +9,7 @@ import { Eye } from "lucide-react";
 import { siteData } from "@/config/site";
 import { Metadata } from "next";
 
-export const metadata: Metadata = siteData("项目集 | cater");
+export const metadata: Metadata = siteData("项目 | cater");
 
 const redis = Redis.fromEnv();
 
@@ -24,9 +24,9 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "inke")!;
-  const top2 = allProjects.find((project) => project.slug === "iconce")!;
-  const top3 = allProjects.find((project) => project.slug === "gcloud")!;
+  const featured = allProjects.find((project) => project.slug === "next-chat")!;
+  const top2 = allProjects.find((project) => project.slug === "lobe-chat")!;
+  const top3 = allProjects.find((project) => project.slug === "devision")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
@@ -47,7 +47,7 @@ export default async function ProjectsPage() {
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-            项目集
+            项目
           </h2>
           <p className="mt-4 text-zinc-400">
             nothing is more

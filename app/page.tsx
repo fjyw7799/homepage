@@ -7,10 +7,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = siteData("cater");
 
 const navigation = [
-  // { name: "项目集", href: "/projects" },
-  // { name: "随手记", href: "/articles" },
+  { name: "项目", href: "/projects" },
+  { name: "文章", href: "/articles" },
   { name: "导航", href: "/comment" },
-  { name: "关于我", href: "/about" },
+  { name: "关于", href: "/about" },
 ];
 
 export default function Home() {

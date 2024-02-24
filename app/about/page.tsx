@@ -5,7 +5,7 @@ import { Card } from "../components/card";
 import { siteData } from "@/config/site";
 import { Metadata } from "next";
 
-export const metadata: Metadata = siteData("关于我 | cater");
+export const metadata: Metadata = siteData("关于 | cater");
 
 const socials = [
   {
@@ -34,7 +34,7 @@ export default function Example() {
       <Navigation />
       <div className="container min-h-screen px-4 mx-auto py-24">
         <div className="text-zinc-200 text-center mb-10">
-          <h2 className="text-zinc-200 font-bold text-xl mb-6">关于我</h2>
+          <h2 className="text-zinc-200 font-bold text-xl mb-6">关于</h2>
           <p className="mb-1">🐱 编程魔法师 ‣ AI探索者 ‣ 数字世界的构建者</p>
           <p className="mb-1">🔍 资源收集控 ‣ 信息的猎人 ‣ 知识的守护者</p>
           <p className="mb-1">🧘‍♂️ 佛教徒 ‣ 心灵的修行者 ‣ 平和的寻求者</p>

@@ -11,10 +11,16 @@
 ### 介绍
 > 一个简约风格的个人主页
 
+### 特色
+- [x] 使用NextJS支持SSR渲染
+- [x] 使用Mdx作为Blog系统
+- [x] 通过Upstash的redis实现文章计数系统
+
 ### 技术栈
 
 * [Next.JS](https://nextjs.org/)
-* [tailwindcss](https://tailwindcss.com/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Contentlayer](https://contentlayer.dev/)
 
 
 ### 手动部署
@@ -40,7 +46,7 @@ pnpm dev
 # 构建
 pnpm build
 ```
-> 构建完成后，静态资源会在 **`dist` 目录** 中生成，可将 **`dist` 文件夹下的文件**上传至服务器，也可使用 `Vercel` 等托管平台一键导入并自动部署
 
+> 构建完成后，也可使用 `Vercel` 等托管平台一键导入并自动部署
 
-</a>&nbsp;<a title="Copyright" target="_blank" href="https://851158.xyz/"><img src="https://img.shields.io/badge/Copyright%20%C2%A9%202020--2023-Cater-blue"></a>
+<a title="Copyright" target="_blank" href="https://851158.xyz/"><img src="https://img.shields.io/badge/Copyright%20%C2%A9%202023--2024-Cater-blue"></a>
