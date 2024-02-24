@@ -45,6 +45,8 @@ pnpm dev
 
 # 构建
 pnpm build
+
+pm2 start npm --name "cater-home" -- start
 ```
 
 > 构建完成后，也可使用 `Vercel` 等托管平台一键导入并自动部署
