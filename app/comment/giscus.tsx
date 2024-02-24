@@ -5,10 +5,10 @@ export default function GiscusComment() {
   return (
     <Giscus
       id="comments"
-      repo="cater/blogv2"
-      repoId="R_kgDOLTw5nQ"
+      repo="fjyw7799/homepage"
+      repoId="R_kgDOLW9WAA"
       category="Announcements"
-      categoryId="DIC_kwDOLTw5nc4CdTjI"
+      categoryId="DIC_kwDOLW9WAM4Cdemg"
       mapping="title"
       term="Hi"
       reactionsEnabled="0"
